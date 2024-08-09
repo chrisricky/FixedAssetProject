@@ -1,0 +1,55 @@
+﻿.small-table {
+    font-size: 0.75rem; /* Smaller font size for the table */
+}
+
+    .small-table th,
+    .small-table td {
+        padding: 0.5rem; /* Reduced padding for table cells */
+    }
+
+    .small-table input.form-control-sm {
+        font-size: 0.75rem; /* Smaller font size for inputs */
+        padding: 0.25rem; /* Reduced padding for inputs */
+    }
+
+.page {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.page-header {
+    background: #f8f9fa;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .page-header h1 {
+        font-size: 2em;
+        margin: 0;
+    }
+
+.page-content {
+    margin-top: 20px;
+}
+
+    .page-content p {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+
+    .page-content button {
+        padding: 10px 20px;
+        font-size: 1em;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .page-content button:hover {
+            background-color: #0056b3;
+        }

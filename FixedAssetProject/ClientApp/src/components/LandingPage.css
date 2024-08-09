@@ -1,0 +1,64 @@
+﻿/* src/components/LandingPage.css */
+
+.landing-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.landing-header {
+    background: #f8f9fa;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .landing-header h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+    }
+
+    .landing-header p {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+    .cta-button:hover {
+        background-color: #0056b3;
+    }
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.feature {
+    background: #e9ecef;
+    padding: 20px;
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .feature h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    .feature p {
+        font-size: 1em;
+    }
